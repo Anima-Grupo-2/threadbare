@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://3vrn5jdxov37"
+path="res://.godot/imported/NO_EDIT_combat.dialogue-c5c6dcecbb4eab203e4fee95a8a51e7e.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/2_combat/NO_EDIT_combat_components/NO_EDIT_combat.dialogue"
+dest_files=["res://.godot/imported/NO_EDIT_combat.dialogue-c5c6dcecbb4eab203e4fee95a8a51e7e.tres"]
+
+[params]
+
+defaults=true
