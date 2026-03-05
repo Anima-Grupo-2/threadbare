@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://vpg6w67dj8ou"]
+
+[ext_resource type="Script" uid="uid://diknsuw3mtj1n" path="res://scenes/game_elements/props/decoration/decoration.gd" id="1_qyfh8"]
+[ext_resource type="Texture2D" uid="uid://bwe0mcvg15xrr" path="res://assets/third_party/tiny-swords/Factions/Knights/Buildings/House/House_Construction.png" id="2_qyfh8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sr1lu"]
+size = Vector2(64.0002, 80)
+
+[node name="Construccion" type="Node2D" unique_id=593509202]
+script = ExtResource("1_qyfh8")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=63792835]
+position = Vector2(1, -98)
+collision_layer = 16
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=2120845090]
+position = Vector2(-1.00012, 66.0001)
+rotation = -1.5708
+shape = SubResource("RectangleShape2D_sr1lu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1503928734]
+unique_name_in_owner = true
+position = Vector2(-1, -73)
+texture = ExtResource("2_qyfh8")

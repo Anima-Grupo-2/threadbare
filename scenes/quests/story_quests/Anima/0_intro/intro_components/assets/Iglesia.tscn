@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://7dh7xkihkl3t"]
+
+[ext_resource type="Script" uid="uid://diknsuw3mtj1n" path="res://scenes/game_elements/props/decoration/decoration.gd" id="1_pgsvb"]
+[ext_resource type="Texture2D" uid="uid://cl0pwbkock83p" path="res://scenes/quests/story_quests/Anima/0_intro/intro_components/assets/buildings/Monastery.png" id="2_pgsvb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sr1lu"]
+size = Vector2(100.7502, 133)
+
+[node name="Iglesia" type="Node2D" unique_id=913868571]
+script = ExtResource("1_pgsvb")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=296183948]
+position = Vector2(1, -98)
+collision_layer = 16
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=896898471]
+position = Vector2(0.5000038, 48.000004)
+rotation = -1.5708
+shape = SubResource("RectangleShape2D_sr1lu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1716951455]
+position = Vector2(2, -140)
+texture = ExtResource("2_pgsvb")

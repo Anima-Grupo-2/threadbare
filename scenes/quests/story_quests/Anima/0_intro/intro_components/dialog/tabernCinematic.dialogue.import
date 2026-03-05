@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://b0k2ll1wi5b2r"
+path="res://.godot/imported/tabernCinematic.dialogue-26c9d07bd92d8c4a0337e322dd07055a.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/0_intro/intro_components/dialog/tabernCinematic.dialogue"
+dest_files=["res://.godot/imported/tabernCinematic.dialogue-26c9d07bd92d8c4a0337e322dd07055a.tres"]
+
+[params]
+
+defaults=true

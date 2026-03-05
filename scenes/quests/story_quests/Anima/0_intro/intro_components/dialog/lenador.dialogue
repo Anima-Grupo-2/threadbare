@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: The Threadbare Authors
+# SPDX-License-Identifier: MPL-2.0
+~ start
+Aventurero: Buen hombre, ¿la posada queda por aquí?
+Leñador: Siga recto hacia arriba, si encuentra un campo de trigo se paso.
+Aventurero: Se lo agradezco. Vengo de un largo viaje.
+Leñador: Se nota por el polvo… y por esa mirada de “necesito sopa urgente”.
+Aventurero: Esa observacion es bastante precisa...
+Leñador: Tranquilo, aquí la posada tiene camas firmes y estofado potente. Ideal para aventureros cansados.
+Aventurero: Este pueblo ya me cae bien.
+=> END

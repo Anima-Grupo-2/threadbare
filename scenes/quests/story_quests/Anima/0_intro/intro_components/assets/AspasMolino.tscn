@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://byr2djwwb7cie"]
+
+[ext_resource type="Script" uid="uid://qd52avor2b3v" path="res://scenes/quests/story_quests/Anima/0_intro/intro_components/assets/buildings/aspasMolino.gd" id="1_2mimp"]
+[ext_resource type="Texture2D" uid="uid://c3b7drik6hxhk" path="res://assets/third_party/tiny-swords-non-cc0/Terrain/Resources/Wood/Wood Resource/Wood Resource.png" id="1_eiena"]
+[ext_resource type="Texture2D" uid="uid://dclo88otp2ts" path="res://assets/third_party/tiny-swords/UI/Icons/Pressed_02.png" id="2_2mimp"]
+
+[node name="AspasMolino" type="Node2D" unique_id=1972960266]
+script = ExtResource("1_2mimp")
+
+[node name="Node2D2" type="Node2D" parent="." unique_id=1218490965]
+rotation = -6.2831855
+
+[node name="Aspa" type="Sprite2D" parent="Node2D2" unique_id=910635240]
+position = Vector2(-55.588318, 9.365845)
+scale = Vector2(2.21875, 1.5781249)
+texture = ExtResource("1_eiena")
+
+[node name="Aspa2" type="Sprite2D" parent="Node2D2" unique_id=1784977469]
+position = Vector2(56.411682, -9.120209)
+rotation = -0.26529005
+scale = Vector2(2.2187495, 1.5781249)
+texture = ExtResource("1_eiena")
+flip_h = true
+
+[node name="Aspa3" type="Sprite2D" parent="Node2D2" unique_id=321120335]
+position = Vector2(-7.588257, -57.634155)
+rotation = 1.5707964
+scale = Vector2(2.21875, 1.578125)
+skew = -0.043633223
+texture = ExtResource("1_eiena")
+
+[node name="Aspa4" type="Sprite2D" parent="Node2D2" unique_id=1303743352]
+position = Vector2(8.411743, 55.365814)
+rotation = 1.5707964
+scale = Vector2(2.21875, 1.578125)
+skew = -0.043633223
+texture = ExtResource("1_eiena")
+flip_h = true
+flip_v = true
+
+[node name="Tuerca" type="Sprite2D" parent="Node2D2" unique_id=2056114504]
+position = Vector2(0.99999946, 3.0000002)
+texture = ExtResource("2_2mimp")

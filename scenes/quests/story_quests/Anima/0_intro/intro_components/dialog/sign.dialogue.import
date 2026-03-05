@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bg6va6vllv1t5"
+path="res://.godot/imported/sign.dialogue-9e969221f73e5181a565937d22c3b6f0.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/0_intro/intro_components/dialog/sign.dialogue"
+dest_files=["res://.godot/imported/sign.dialogue-9e969221f73e5181a565937d22c3b6f0.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://da8u6pdg31qf2"]
+
+[ext_resource type="PackedScene" uid="uid://ccpgw7k4rlmea" path="res://scenes/game_elements/props/decoration/crops/barley.tscn" id="1_dm2oh"]
+
+[node name="Granja" type="Node2D" unique_id=904341093]
+
+[node name="Barley" parent="." unique_id=831247970 instance=ExtResource("1_dm2oh")]
+
+[node name="Barley3" parent="." unique_id=1103121957 instance=ExtResource("1_dm2oh")]
+position = Vector2(36, 0)
+
+[node name="Barley2" parent="." unique_id=1188883466 instance=ExtResource("1_dm2oh")]
+position = Vector2(16, 12)
+
+[node name="Barley4" parent="." unique_id=758215284 instance=ExtResource("1_dm2oh")]
+position = Vector2(0, 24)
+
+[node name="Barley5" parent="." unique_id=884956412 instance=ExtResource("1_dm2oh")]
+position = Vector2(32, 24)

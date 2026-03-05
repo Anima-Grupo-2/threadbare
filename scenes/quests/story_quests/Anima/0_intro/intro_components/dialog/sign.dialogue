@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: The Threadbare Authors
+# SPDX-License-Identifier: MPL-2.0
+~ start
+Aventurero: Que sera esto? siento una presencia magica en su interior
+El Aventurero guarda el pergamino en su mochila y levanta la cabeza para leer el cartel que tiene enfrente
+"🌾BIENVENIDOS A EVERWHEAT🌾"
+Aventurero: Espero que la posada tenga camas comodas
+=> END

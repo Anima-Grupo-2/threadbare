@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bvorecjid3rb4"
+path="res://.godot/imported/Outro.dialogue-ce9b912f845299f7b39aba0c178149fd.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/4_outro/OutroComponents/Outro.dialogue"
+dest_files=["res://.godot/imported/Outro.dialogue-ce9b912f845299f7b39aba0c178149fd.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bibah07fh7r2q"
+path="res://.godot/imported/Cat.dialogue-19251aee8843bb3bfbe8b7404ac3d521.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/4_outro/OutroComponents/Cat.dialogue"
+dest_files=["res://.godot/imported/Cat.dialogue-19251aee8843bb3bfbe8b7404ac3d521.tres"]
+
+[params]
+
+defaults=true

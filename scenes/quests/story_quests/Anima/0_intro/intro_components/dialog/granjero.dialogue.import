@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bmxqq3obhm8kp"
+path="res://.godot/imported/granjero.dialogue-b931a9182a54863c8174ada4f0b7204d.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/0_intro/intro_components/dialog/granjero.dialogue"
+dest_files=["res://.godot/imported/granjero.dialogue-b931a9182a54863c8174ada4f0b7204d.tres"]
+
+[params]
+
+defaults=true
