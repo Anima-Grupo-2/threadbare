@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: The Threadbare Authors
+# SPDX-License-Identifier: MPL-2.0
+
+~ start
+El laberinto ha sido cruzado, el desafío se ha completado exitosamente.
+Pero hay una vibra rara en el lugar. Todo se ve muy extraño…
+Brujo: Quien se atreve a desafiar los misterios del bosque cuando hay un mago haciendo “chulería”
+Aventurero: ¿Acaso tú eres el dueño de por aquí?
+Brujo: “El que busca peligros, perece en ellos.” (Don Quijote)
+Aventurero: “El valor yace en el corazón, no en las armas.” (Don Quijote)
+Brujo: Si quieres ver valor y alcanzar lo que buscas ¡Pruebalo!
+Aventurero: “El hombre bien preparado para la lucha ya ha conseguido medio triunfo.” (Don Quijote)
+=> END
+
+~ well_done
+Una voz resuena a lo lejos...
+Brujo: Haz hecho trampa! No has usado ni una sola arma para derrotarme más que tu habilidad para devolverme lo que te he dado.
+Aventurero: “El que no sabe gozar de la ventura cuando le viene, no debe quejarse si se le pasa.”
+Brujo: Has demostrado inteligencia y valentía. ¡Conforme a lo que estas buscando yo hechizo este pergamino para que te dé la respuesta de lo que estas buscando!
+Dicho esto la voz del brujo desapareció, dejando en su lugar un pergamino…
+=> END

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://unlyhsvus1nj"
+path="res://.godot/imported/PostSokoban.dialogue-520edaf8d384685f98e58e4bb10573b5.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/1_sokoban/TabernaComponents/PostSokoban.dialogue"
+dest_files=["res://.godot/imported/PostSokoban.dialogue-520edaf8d384685f98e58e4bb10573b5.tres"]
+
+[params]
+
+defaults=true

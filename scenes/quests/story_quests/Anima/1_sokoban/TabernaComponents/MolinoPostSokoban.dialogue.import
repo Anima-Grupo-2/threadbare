@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://d1hhv5n3wo7sy"
+path="res://.godot/imported/MolinoPostSokoban.dialogue-c0b8ef86e2393e341b50af17c799fd2e.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/1_sokoban/TabernaComponents/MolinoPostSokoban.dialogue"
+dest_files=["res://.godot/imported/MolinoPostSokoban.dialogue-c0b8ef86e2393e341b50af17c799fd2e.tres"]
+
+[params]
+
+defaults=true
