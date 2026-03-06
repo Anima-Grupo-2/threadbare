@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cggywn8t6s4le"
+path="res://.godot/imported/NO_EDIT_stealth.dialogue-e897e76cb20d4c0469d24c0a97a1a1d7.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/1_sokoban/NO_EDIT_stealth_components/NO_EDIT_stealth.dialogue"
+dest_files=["res://.godot/imported/NO_EDIT_stealth.dialogue-e897e76cb20d4c0469d24c0a97a1a1d7.tres"]
+
+[params]
+
+defaults=true

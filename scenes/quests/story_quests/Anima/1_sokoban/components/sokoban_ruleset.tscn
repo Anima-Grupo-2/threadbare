@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://chxsytmim2h3c"]
+
+[ext_resource type="Script" path="res://scenes/quests/story_quests/Anima/1_stealth/components/system/rules/rule_engine.gd" id="1_f1ajm"]
+[ext_resource type="Script" path="res://scenes/quests/story_quests/Anima/1_stealth/components/system/input/directional_input.gd" id="2_oodeq"]
+[ext_resource type="Script" uid="uid://ck62d5tf317mf" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/rules/rule_push.gd" id="3_iol5b"]
+[ext_resource type="Script" uid="uid://darhicljmogks" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/goals/goal_all_on.gd" id="4_m7jch"]
+
+[node name="SokobanRuleset" type="Node" unique_id=1350519721 node_paths=PackedStringArray("directional_input")]
+script = ExtResource("1_f1ajm")
+directional_input = NodePath("DirectionalInput")
+tags_legend = Array[StringName]([&"controllable", &"pushable"])
+
+[node name="DirectionalInput" type="Node" parent="." unique_id=411711421]
+script = ExtResource("2_oodeq")
+metadata/_custom_type_script = "uid://w1wfv7xac14u"
+
+[node name="RulePushUp" type="Node" parent="." unique_id=1016410752]
+script = ExtResource("3_iol5b")
+pusher = &"controllable"
+pushee = &"pushable"
+
+[node name="RulePushRight" type="Node" parent="RulePushUp" unique_id=1110029065]
+script = ExtResource("3_iol5b")
+pusher = &"controllable"
+pushee = &"pushable"
+direction = 1
+
+[node name="RulePushDown" type="Node" parent="RulePushUp" unique_id=1246870456]
+script = ExtResource("3_iol5b")
+pusher = &"controllable"
+pushee = &"pushable"
+direction = 2
+
+[node name="RulePushLeft" type="Node" parent="RulePushUp" unique_id=1866140334]
+script = ExtResource("3_iol5b")
+pusher = &"controllable"
+pushee = &"pushable"
+direction = 3
+
+[node name="GoalTarget" type="Node" parent="." unique_id=533691779]
+script = ExtResource("4_m7jch")
+key = &"clump"
+target = &"target"
+metadata/_custom_type_script = "uid://6pqne81m5n80"

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://t5k7r1ulcxn6"]
+
+[ext_resource type="Script" path="res://scenes/quests/story_quests/Anima/1_stealth/components/system/board/piece_2d.gd" id="1_e3n1e"]
+[ext_resource type="Texture2D" uid="uid://q7ql7flhjpr" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/thread_yellow.png" id="2_amlhr"]
+
+[node name="SokobanBowImagination" type="Node2D" unique_id=245099342]
+z_index = 2
+script = ExtResource("1_e3n1e")
+id = &"imagination"
+tags = Array[StringName]([&"pushable"])
+metadata/_custom_type_script = "uid://cgwu1infdhqxt"
+
+[node name="Thread" type="Sprite2D" parent="." unique_id=1245318190]
+texture = ExtResource("2_amlhr")
+hframes = 3
+frame = 1

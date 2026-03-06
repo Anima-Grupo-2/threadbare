@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bqf3ufifnjl8j"]
+
+[ext_resource type="Script" path="res://scenes/quests/story_quests/Anima/1_stealth/components/system/board/piece_2d.gd" id="1_m7fsp"]
+[ext_resource type="Texture2D" uid="uid://dis8arqqidmnx" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/thread_green.png" id="2_gsvly"]
+
+[node name="SokobanBowMemory" type="Node2D" unique_id=383239678]
+z_index = 2
+script = ExtResource("1_m7fsp")
+id = &"memory"
+tags = Array[StringName]([&"pushable"])
+metadata/_custom_type_script = "uid://cgwu1infdhqxt"
+
+[node name="Thread" type="Sprite2D" parent="." unique_id=1961708666]
+texture = ExtResource("2_gsvly")
+hframes = 3
+frame = 1

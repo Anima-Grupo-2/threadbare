@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://b7qgi3a4fu450"]
+
+[ext_resource type="Script" path="res://scenes/quests/story_quests/Anima/1_stealth/components/system/rules/rule_engine.gd" id="1_tryoq"]
+[ext_resource type="Script" path="res://scenes/quests/story_quests/Anima/1_stealth/components/system/input/directional_input.gd" id="2_mdbax"]
+[ext_resource type="Script" uid="uid://ck62d5tf317mf" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/rules/rule_push.gd" id="3_tr7dw"]
+[ext_resource type="Script" uid="uid://darhicljmogks" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/goals/goal_all_on.gd" id="4_ffd56"]
+
+[node name="EternalLoomRuleset" type="Node" unique_id=179353152 node_paths=PackedStringArray("directional_input")]
+script = ExtResource("1_tryoq")
+directional_input = NodePath("DirectionalInput")
+tags_legend = Array[StringName]([&"controllable", &"pushable"])
+
+[node name="DirectionalInput" type="Node" parent="." unique_id=2141037844]
+script = ExtResource("2_mdbax")
+metadata/_custom_type_script = "uid://w1wfv7xac14u"
+
+[node name="RulePushUp" type="Node" parent="." unique_id=795000229]
+script = ExtResource("3_tr7dw")
+pusher = &"controllable"
+pushee = &"pushable"
+
+[node name="RulePushRight" type="Node" parent="RulePushUp" unique_id=981677234]
+script = ExtResource("3_tr7dw")
+pusher = &"controllable"
+pushee = &"pushable"
+direction = 1
+
+[node name="RulePushDown" type="Node" parent="RulePushUp" unique_id=1935740742]
+script = ExtResource("3_tr7dw")
+pusher = &"controllable"
+pushee = &"pushable"
+direction = 2
+
+[node name="RulePushLeft" type="Node" parent="RulePushUp" unique_id=669613275]
+script = ExtResource("3_tr7dw")
+pusher = &"controllable"
+pushee = &"pushable"
+direction = 3
+
+[node name="GoalImagination" type="Node" parent="." unique_id=1606330132]
+script = ExtResource("4_ffd56")
+key = &"imagination"
+target = &"target_imagination"
+metadata/_custom_type_script = "uid://6pqne81m5n80"
+
+[node name="GoalMemory" type="Node" parent="." unique_id=1601090405]
+script = ExtResource("4_ffd56")
+key = &"memory"
+target = &"target_memory"
+metadata/_custom_type_script = "uid://6pqne81m5n80"
+
+[node name="GoalSpirit" type="Node" parent="." unique_id=1066817849]
+script = ExtResource("4_ffd56")
+key = &"spirit"
+target = &"target_spirit"
+metadata/_custom_type_script = "uid://6pqne81m5n80"
