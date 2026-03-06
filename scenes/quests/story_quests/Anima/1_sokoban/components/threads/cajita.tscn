@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cl8sm8dwd6kf3"]
+
+[ext_resource type="Script" uid="uid://cgwu1infdhqxt" path="res://scenes/eternal_loom_sokoban/components/system/board/piece_2d.gd" id="1_yka1f"]
+[ext_resource type="Texture2D" uid="uid://dl2rignjmeslk" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/Image20260303192847.png" id="2_5m6ye"]
+
+[node name="SokobanBowSpirit" type="Node2D" unique_id=721196049]
+z_index = 2
+script = ExtResource("1_yka1f")
+id = &"spirit"
+tags = Array[StringName]([&"pushable"])
+metadata/_custom_type_script = "uid://cgwu1infdhqxt"
+
+[node name="Thread" type="Sprite2D" parent="." unique_id=372960728]
+position = Vector2(1, -1.9999998)
+scale = Vector2(0.9877622, 0.86923075)
+texture = ExtResource("2_5m6ye")

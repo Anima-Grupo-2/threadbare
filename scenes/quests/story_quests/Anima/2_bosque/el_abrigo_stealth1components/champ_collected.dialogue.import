@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://kcwbxl8wa3gj"
+path="res://.godot/imported/champ_collected.dialogue-bce76ff090985ee37a005ab4f5e59dcf.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/2_bosque/el_abrigo_stealth1components/champ_collected.dialogue"
+dest_files=["res://.godot/imported/champ_collected.dialogue-bce76ff090985ee37a005ab4f5e59dcf.tres"]
+
+[params]
+
+defaults=true

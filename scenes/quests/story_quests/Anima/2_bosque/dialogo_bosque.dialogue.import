@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://coc65hdfi2een"
+path="res://.godot/imported/dialogo_bosque.dialogue-3793fe61c8cbd5e4e28d5b70a4285201.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/2_bosque/dialogo_bosque.dialogue"
+dest_files=["res://.godot/imported/dialogo_bosque.dialogue-3793fe61c8cbd5e4e28d5b70a4285201.tres"]
+
+[params]
+
+defaults=true

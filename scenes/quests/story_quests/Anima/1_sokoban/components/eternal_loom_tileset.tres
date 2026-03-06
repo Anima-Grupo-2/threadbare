@@ -1,0 +1,78 @@
+[gd_resource type="TileSet" format=3 uid="uid://20a4g4u7oauy"]
+
+[ext_resource type="PackedScene" uid="uid://cqhdy3iwgwq2g" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/wall/wall_2.tscn" id="1_0xna6"]
+[ext_resource type="PackedScene" uid="uid://bqf3ufifnjl8j" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/thread_bow_memory.tscn" id="2_3emdt"]
+[ext_resource type="PackedScene" uid="uid://cl8sm8dwd6kf3" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/cajita.tscn" id="3_v2fun"]
+[ext_resource type="PackedScene" uid="uid://dabooje6ba83q" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/clump/clump_target.tscn" id="4_byi2w"]
+[ext_resource type="PackedScene" uid="uid://4uchsp2f7xo2" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/target_imagination.tscn" id="5_kr83y"]
+[ext_resource type="PackedScene" uid="uid://ckj0v61hvd0bs" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/target_memory.tscn" id="6_pxu32"]
+[ext_resource type="PackedScene" uid="uid://bsanc1huw5qxo" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/equis.tscn" id="7_3p3d4"]
+[ext_resource type="PackedScene" uid="uid://bgefmjlu2n2lx" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/player/sokoban_player.tscn" id="8_4bxc5"]
+[ext_resource type="PackedScene" uid="uid://di6ijrjdvqr00" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/wall/wall.tscn" id="9_lfaop"]
+[ext_resource type="PackedScene" uid="uid://ca4oqs5okafyh" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/clump/clump.tscn" id="10_jp8ux"]
+[ext_resource type="PackedScene" uid="uid://t5k7r1ulcxn6" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/thread_bow_imagination.tscn" id="11_67jg1"]
+[ext_resource type="Texture2D" uid="uid://dsajhnts3ogwt" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/floor/floor.png" id="12_8ldmq"]
+[ext_resource type="Texture2D" uid="uid://dis8arqqidmnx" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/thread_green.png" id="13_03cax"]
+[ext_resource type="Texture2D" uid="uid://d2tcxall06l5y" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/thread_red.png" id="14_dvb3h"]
+[ext_resource type="Texture2D" uid="uid://q7ql7flhjpr" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/thread_yellow.png" id="15_vxfkj"]
+[ext_resource type="PackedScene" uid="uid://bfa3iul7chda5" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/spools/spool_imagination_down.tscn" id="16_b27nm"]
+[ext_resource type="PackedScene" uid="uid://c17au0ehrrsh7" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/spools/spool_imagination_up.tscn" id="17_ov7qa"]
+[ext_resource type="PackedScene" uid="uid://cctxfushh8l35" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/spools/spool_memory_down.tscn" id="18_xmhxs"]
+[ext_resource type="PackedScene" uid="uid://oriq0af5keom" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/spools/spool_memory_up.tscn" id="19_2vo0u"]
+[ext_resource type="PackedScene" uid="uid://da14jwykf4j8s" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/spools/spool_spirit_down.tscn" id="20_spbs4"]
+[ext_resource type="PackedScene" uid="uid://py5ljpfep5g1" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/spools/spool_spirit_up.tscn" id="21_6pm01"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_ef8tg"]
+resource_name = "pieces"
+scenes/1/scene = ExtResource("1_0xna6")
+scenes/6/scene = ExtResource("8_4bxc5")
+scenes/7/scene = ExtResource("9_lfaop")
+scenes/8/scene = ExtResource("10_jp8ux")
+scenes/9/scene = ExtResource("11_67jg1")
+scenes/10/scene = ExtResource("2_3emdt")
+scenes/11/scene = ExtResource("3_v2fun")
+scenes/12/scene = ExtResource("4_byi2w")
+scenes/13/scene = ExtResource("5_kr83y")
+scenes/14/scene = ExtResource("6_pxu32")
+scenes/15/scene = ExtResource("7_3p3d4")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cpxc1"]
+texture = ExtResource("12_8ldmq")
+texture_region_size = Vector2i(64, 64)
+0:0/next_alternative_id = 3
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6wob0"]
+texture = ExtResource("13_03cax")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qxgbx"]
+texture = ExtResource("14_dvb3h")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gewbp"]
+texture = ExtResource("15_vxfkj")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_bwjee"]
+resource_name = "spools"
+scenes/1/scene = ExtResource("16_b27nm")
+scenes/2/scene = ExtResource("17_ov7qa")
+scenes/3/scene = ExtResource("18_xmhxs")
+scenes/4/scene = ExtResource("19_2vo0u")
+scenes/5/scene = ExtResource("20_spbs4")
+scenes/6/scene = ExtResource("21_6pm01")
+
+[resource]
+tile_size = Vector2i(64, 64)
+sources/0 = SubResource("TileSetScenesCollectionSource_ef8tg")
+sources/2 = SubResource("TileSetAtlasSource_cpxc1")
+sources/3 = SubResource("TileSetAtlasSource_6wob0")
+sources/4 = SubResource("TileSetAtlasSource_qxgbx")
+sources/5 = SubResource("TileSetAtlasSource_gewbp")
+sources/6 = SubResource("TileSetScenesCollectionSource_bwjee")

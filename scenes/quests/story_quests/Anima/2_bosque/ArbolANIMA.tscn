@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dsxj3kimprf47"]
+
+[ext_resource type="Texture2D" uid="uid://dc4nuj702f442" path="res://scenes/game_elements/props/tree/components/Tree_Patches_Green.png" id="3_27k4v"]
+
+[node name="Tree" type="Node2D" unique_id=1292869522]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=572368453]
+position = Vector2(0, -80)
+texture = ExtResource("3_27k4v")
+hframes = 6
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=855840629]
+collision_layer = 16
+collision_mask = 0
