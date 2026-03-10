@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://3vrn5jdxov37"
+path="res://.godot/imported/DialogoCombate.dialogue-e3c004f1c6b49e146b57e1bfe79f6c9e.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/3_combat/CombatComponents/DialogoCombate.dialogue"
+dest_files=["res://.godot/imported/DialogoCombate.dialogue-e3c004f1c6b49e146b57e1bfe79f6c9e.tres"]
+
+[params]
+
+defaults=true
