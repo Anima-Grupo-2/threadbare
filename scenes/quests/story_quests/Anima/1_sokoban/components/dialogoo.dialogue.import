@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c3xxiyw7qaqms"
+path="res://.godot/imported/dialogoo.dialogue-860d8c6ef581d9c9f2dca83c4f2214f3.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/1_sokoban/components/dialogoo.dialogue"
+dest_files=["res://.godot/imported/dialogoo.dialogue-860d8c6ef581d9c9f2dca83c4f2214f3.tres"]
+
+[params]
+
+defaults=true

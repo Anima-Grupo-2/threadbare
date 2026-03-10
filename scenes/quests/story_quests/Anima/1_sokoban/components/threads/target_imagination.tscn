@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://4uchsp2f7xo2"]
+
+[ext_resource type="Script" path="res://scenes/quests/story_quests/Anima/1_stealth/components/system/board/piece_2d.gd" id="1_rok6e"]
+[ext_resource type="Texture2D" uid="uid://q7ql7flhjpr" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/threads/thread_yellow.png" id="2_i0yln"]
+
+[node name="SokobanTargetImagination" type="Node2D" unique_id=205172838]
+z_index = 1
+script = ExtResource("1_rok6e")
+id = &"target_imagination"
+metadata/_custom_type_script = "uid://cgwu1infdhqxt"
+
+[node name="Thread" type="Sprite2D" parent="." unique_id=1226051226]
+texture = ExtResource("2_i0yln")
+hframes = 3
+frame = 2

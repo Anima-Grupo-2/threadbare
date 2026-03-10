@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cppk2qynt485b"
+path="res://.godot/imported/NO_EDIT_checkpoint.dialogue-a2eddc80f1bf7a58eb95d23a8981e9c4.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/1_sokoban/NO_EDIT_stealth_components/NO_EDIT_checkpoint.dialogue"
+dest_files=["res://.godot/imported/NO_EDIT_checkpoint.dialogue-a2eddc80f1bf7a58eb95d23a8981e9c4.tres"]
+
+[params]
+
+defaults=true

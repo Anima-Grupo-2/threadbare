@@ -1,0 +1,100 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://yfpd8nvlslx6"]
+
+[ext_resource type="Texture2D" uid="uid://ume7layd8swm" path="res://scenes/quests/story_quests/Anima/2_bosque/el_abrigo_stealth1components/el_abrigo_Gusano_Seda_atack1.png" id="1_mqect"]
+[ext_resource type="Texture2D" uid="uid://j5q0ek4pf1lc" path="res://scenes/quests/story_quests/Anima/2_bosque/el_abrigo_stealth1components/el_abrigo_Gusano_Seda_idle.png" id="2_x8lbi"]
+[ext_resource type="Texture2D" uid="uid://bk734amebn1xe" path="res://scenes/quests/story_quests/Anima/2_bosque/el_abrigo_stealth1components/el_abrigo_Gusano_Seda_walk.png" id="3_271v8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cvdgd"]
+atlas = ExtResource("1_mqect")
+region = Rect2(0, 0, 144, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tpxgt"]
+atlas = ExtResource("1_mqect")
+region = Rect2(144, 0, 144, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ydf67"]
+atlas = ExtResource("1_mqect")
+region = Rect2(288, 0, 144, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xqyfq"]
+atlas = ExtResource("1_mqect")
+region = Rect2(432, 0, 144, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jsawi"]
+atlas = ExtResource("2_x8lbi")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tm10i"]
+atlas = ExtResource("2_x8lbi")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oi7bf"]
+atlas = ExtResource("2_x8lbi")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3wkgc"]
+atlas = ExtResource("3_271v8")
+region = Rect2(0, 0, 144, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jlk7w"]
+atlas = ExtResource("3_271v8")
+region = Rect2(144, 0, 144, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jk67q"]
+atlas = ExtResource("3_271v8")
+region = Rect2(288, 0, 144, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o641k"]
+atlas = ExtResource("3_271v8")
+region = Rect2(432, 0, 144, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cvdgd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tpxgt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ydf67")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xqyfq")
+}],
+"loop": true,
+"name": &"alerted",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jsawi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tm10i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oi7bf")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3wkgc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jlk7w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jk67q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o641k")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 10.0
+}]

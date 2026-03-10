@@ -1,0 +1,32 @@
+[gd_resource type="TileSet" format=3 uid="uid://cud7bkwvx0yf0"]
+
+[ext_resource type="PackedScene" uid="uid://ca4oqs5okafyh" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/clump/clump.tscn" id="1_euvkl"]
+[ext_resource type="PackedScene" uid="uid://dabooje6ba83q" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/clump/clump_target.tscn" id="2_6coit"]
+[ext_resource type="PackedScene" uid="uid://di6ijrjdvqr00" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/wall/wall.tscn" id="3_1r8tm"]
+[ext_resource type="PackedScene" uid="uid://cqhdy3iwgwq2g" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/wall/wall_2.tscn" id="4_dbtau"]
+[ext_resource type="PackedScene" uid="uid://bgefmjlu2n2lx" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/player/sokoban_player.tscn" id="5_k7rf4"]
+[ext_resource type="Texture2D" uid="uid://dsajhnts3ogwt" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/floor/floor.png" id="6_h676t"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_ef8tg"]
+resource_name = "pieces"
+scenes/2/scene = ExtResource("1_euvkl")
+scenes/3/scene = ExtResource("2_6coit")
+scenes/4/scene = ExtResource("3_1r8tm")
+scenes/5/scene = ExtResource("4_dbtau")
+scenes/6/scene = ExtResource("5_k7rf4")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cpxc1"]
+texture = ExtResource("6_h676t")
+texture_region_size = Vector2i(64, 64)
+0:0/next_alternative_id = 2
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+
+[resource]
+tile_size = Vector2i(64, 64)
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Terrain 0"
+terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
+sources/0 = SubResource("TileSetScenesCollectionSource_ef8tg")
+sources/2 = SubResource("TileSetAtlasSource_cpxc1")

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://oriq0af5keom"]
+
+[ext_resource type="Script" path="res://scenes/quests/story_quests/Anima/1_stealth/components/system/board/piece_2d.gd" id="1_cwqtt"]
+[ext_resource type="Texture2D" uid="uid://b4v676ag17exm" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/spools/spool_green.png" id="2_2p57w"]
+
+[node name="SpoolMemoryUp" type="Node2D" unique_id=1922870550]
+z_index = 2
+script = ExtResource("1_cwqtt")
+id = &"wall"
+metadata/_custom_type_script = "uid://cgwu1infdhqxt"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=540358398]
+rotation = -3.14159
+texture = ExtResource("2_2p57w")

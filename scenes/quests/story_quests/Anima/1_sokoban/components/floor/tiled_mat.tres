@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://blrm0pydba7m8"]
+
+[ext_resource type="Shader" uid="uid://c1s5jx7xtkt7b" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/floor/tiled_shader.gdshader" id="1_n2rk2"]
+
+[resource]
+shader = ExtResource("1_n2rk2")
+shader_parameter/dark_overlay = Color(0.808998, 0.808998, 0.808998, 1)
+shader_parameter/grid_size = 64.0

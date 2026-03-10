@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bsanc1huw5qxo"]
+
+[ext_resource type="Script" uid="uid://cgwu1infdhqxt" path="res://scenes/eternal_loom_sokoban/components/system/board/piece_2d.gd" id="1_lmutr"]
+[ext_resource type="Texture2D" uid="uid://bh2od5ag6rtjg" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/X2.png" id="2_subwa"]
+
+[node name="equis" type="Node2D" unique_id=1065367190]
+z_index = 1
+script = ExtResource("1_lmutr")
+id = &"target_spirit"
+metadata/_custom_type_script = "uid://cgwu1infdhqxt"
+
+[node name="Thread" type="Sprite2D" parent="." unique_id=284710064]
+texture = ExtResource("2_subwa")

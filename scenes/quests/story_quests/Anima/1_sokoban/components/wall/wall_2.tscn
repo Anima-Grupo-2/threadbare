@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cqhdy3iwgwq2g"]
+
+[ext_resource type="Script" path="res://scenes/quests/story_quests/Anima/1_stealth/components/system/board/piece_2d.gd" id="1_65p6y"]
+[ext_resource type="Texture2D" uid="uid://502o2kb7gbl4" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/wall/walls.png" id="2_af2fg"]
+
+[node name="SokobanWall2" type="Node2D" unique_id=1556322735]
+z_index = 2
+script = ExtResource("1_65p6y")
+id = &"wall"
+metadata/_custom_type_script = "uid://cgwu1infdhqxt"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=9701608]
+texture = ExtResource("2_af2fg")
+hframes = 2
+frame = 1
