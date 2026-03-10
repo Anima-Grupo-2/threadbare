@@ -9,6 +9,7 @@
 size = Vector2(112.74953, 163)
 
 [node name="Molino" type="Node2D" unique_id=913868571]
+position = Vector2(168, 372)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=296183948]
 position = Vector2(0, -98)

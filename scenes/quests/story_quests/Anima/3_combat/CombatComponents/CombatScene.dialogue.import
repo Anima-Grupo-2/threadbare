@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://3vrn5jdxov37"
+path="res://.godot/imported/CombatScene.dialogue-a6ea913612fd177885832bffb6e0bfbe.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/3_combat/CombatComponents/CombatScene.dialogue"
+dest_files=["res://.godot/imported/CombatScene.dialogue-a6ea913612fd177885832bffb6e0bfbe.tres"]
+
+[params]
+
+defaults=true

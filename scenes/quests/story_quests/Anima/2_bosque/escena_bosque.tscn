@@ -1,4 +1,4 @@
-[gd_scene format=4 uid="uid://b610m2uotgg4n"]
+[gd_scene format=4 uid="uid://ciy7rkur8sj1w"]
 
 [ext_resource type="Script" uid="uid://dnp0tjloec2d7" path="res://scenes/game_logic/stealth_game_logic.gd" id="1_kmbx2"]
 [ext_resource type="TileSet" uid="uid://cbbshdkxebjh6" path="res://scenes/quests/story_quests/champ/tiles/champ_exterior_floors.tres" id="2_3dnqq"]
@@ -11,6 +11,7 @@
 [ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="10_yiuul"]
 [ext_resource type="Resource" uid="uid://coc65hdfi2een" path="res://scenes/quests/story_quests/Anima/2_bosque/dialogo_bosque.dialogue" id="12_i5wml"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="12_k7kvx"]
+[ext_resource type="SpriteFrames" uid="uid://dtoylirwywk0j" path="res://scenes/game_elements/characters/components/sprite_frames/storyweaver_blue.tres" id="14_i5wml"]
 [ext_resource type="AudioStream" uid="uid://qnqpd21qyfnc" path="res://assets/first_party/music/Threadbare_Stealth.ogg" id="14_yi3u7"]
 [ext_resource type="PackedScene" uid="uid://dsxj3kimprf47" path="res://scenes/quests/story_quests/Anima/2_bosque/ArbolANIMA.tscn" id="15_3muj0"]
 
@@ -956,7 +957,7 @@ curve = SubResource("Curve2D_2hewv")
 
 [node name="CollectibleItem" parent="." unique_id=1299879609 instance=ExtResource("9_5ljpv")]
 position = Vector2(1407, 2777)
-next_scene = "uid://ikqwy7kpa5ly"
+next_scene = "uid://b2l67fklyn03g"
 item = SubResource("Resource_x1dad")
 
 [node name="Cinematic" type="Node2D" parent="." unique_id=960101800]
@@ -973,6 +974,7 @@ parameters/looping = true
 [node name="Player" parent="." unique_id=296354958 instance=ExtResource("4_ye45j")]
 position = Vector2(368, 564)
 collision_layer = 513
+sprite_frames = ExtResource("14_i5wml")
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1622683876]
 

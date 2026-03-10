@@ -1,10 +1,10 @@
-[gd_scene format=4 uid="uid://djyv7i81jfxkv"]
+[gd_scene format=4 uid="uid://6svk5fiw01jk"]
 
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="1_g11dr"]
 [ext_resource type="Resource" uid="uid://c3xxiyw7qaqms" path="res://scenes/quests/story_quests/Anima/1_sokoban/components/dialogoo.dialogue" id="2_g11dr"]
 [ext_resource type="Script" uid="uid://dppvw2f8yh4vu" path="res://scenes/eternal_loom_sokoban/components/system/board/board_2d.gd" id="3_kx3d2"]
 [ext_resource type="Material" uid="uid://jpl3v3f7elq6" path="res://scenes/eternal_loom_sokoban/components/floor/tiled_mat.tres" id="4_e7of7"]
-[ext_resource type="TileSet" uid="uid://hkxld4jrtdj6" path="res://scenes/quests/story_quests/Anima/1_sokoban/eternal_loom_tileset_custom.tres" id="5_v06kn"]
+[ext_resource type="TileSet" path="res://scenes/quests/story_quests/Anima/1_sokoban/eternal_loom_tileset_custom.tres" id="5_v06kn"]
 [ext_resource type="PackedScene" uid="uid://b4d5rf6hn0x4" path="res://scenes/eternal_loom_sokoban/components/hud/sokoban_hud.tscn" id="6_tcygr"]
 [ext_resource type="PackedScene" uid="uid://btpeaqx2nur3q" path="res://scenes/eternal_loom_sokoban/components/eternal_loom_ruleset.tscn" id="7_px64i"]
 [ext_resource type="PackedScene" uid="uid://2rbpl811wlv1" path="res://scenes/game_elements/props/background_music/background_music.tscn" id="8_d4tqu"]
@@ -63,7 +63,7 @@ use_kinematic_bodies = true
 
 [node name="EternalLoomRuleset" parent="." unique_id=1264941114 node_paths=PackedStringArray("board") instance=ExtResource("7_px64i")]
 board = NodePath("../Board2D")
-next_scene = "uid://c80o1bys5radq"
+next_scene = "uid://uatmh6qsq416"
 
 [node name="BackgroundMusic" parent="." unique_id=1277927076 instance=ExtResource("8_d4tqu")]
 stream = ExtResource("9_6mrec")
