@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: The Threadbare Authors
+# SPDX-License-Identifier: MPL-2.0
+~ start
+Aventurero: Buen hombre, ¿esta es la posada?
+Constructor: No. Si todo sale bien, en tres semanas aqui será mi casa. Si sale mal… será arte moderno.
+Constructor: La posada es en enfrente por cierto
+Aventurero: Gracias
+=> END

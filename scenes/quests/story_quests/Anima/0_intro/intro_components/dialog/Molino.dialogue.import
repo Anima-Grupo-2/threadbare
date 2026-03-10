@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://hl3lcnmp5qqj"
+path="res://.godot/imported/Molino.dialogue-0a2e04e48a81dd1c0b3dd591d7144c8c.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/0_intro/intro_components/dialog/Molino.dialogue"
+dest_files=["res://.godot/imported/Molino.dialogue-0a2e04e48a81dd1c0b3dd591d7144c8c.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cyehu20useuf2"
+path="res://.godot/imported/lenador.dialogue-3db48d9e8d59725823e3447e8ea1a792.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/0_intro/intro_components/dialog/lenador.dialogue"
+dest_files=["res://.godot/imported/lenador.dialogue-3db48d9e8d59725823e3447e8ea1a792.tres"]
+
+[params]
+
+defaults=true

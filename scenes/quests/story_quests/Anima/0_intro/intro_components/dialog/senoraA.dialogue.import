@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dor2k027uu5hn"
+path="res://.godot/imported/senoraA.dialogue-69abf19d038f7a785fca3e8d70027363.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/Anima/0_intro/intro_components/dialog/senoraA.dialogue"
+dest_files=["res://.godot/imported/senoraA.dialogue-69abf19d038f7a785fca3e8d70027363.tres"]
+
+[params]
+
+defaults=true
