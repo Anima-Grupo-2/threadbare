@@ -8,6 +8,7 @@
 [ext_resource type="SpriteFrames" uid="uid://c828jcbsnsvkr" path="res://scenes/quests/story_quests/el_abrigo/2_el_abrigo_stealth/el_abrigo_stealth1components/champ_guard_enemy.tres" id="7_7bg8g"]
 [ext_resource type="PackedScene" uid="uid://cfcgrfvtn04yp" path="res://scenes/ui_elements/hud/hud.tscn" id="8_y55ei"]
 [ext_resource type="PackedScene" uid="uid://fuhl3l6gxq5k" path="res://scenes/game_elements/props/collectible_item/collectible_item.tscn" id="9_5ljpv"]
+[ext_resource type="Resource" uid="uid://c1jbd6hrbi8rw" path="res://scenes/quests/story_quests/Anima/2_bosque/dialogo_bosque2.dialogue" id="10_fyq7k"]
 [ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="10_yiuul"]
 [ext_resource type="Resource" uid="uid://coc65hdfi2een" path="res://scenes/quests/story_quests/Anima/2_bosque/dialogo_bosque.dialogue" id="12_i5wml"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="12_k7kvx"]
@@ -29,6 +30,7 @@ point_count = 9
 
 [sub_resource type="Resource" id="Resource_x1dad"]
 script = ExtResource("10_yiuul")
+type = 1
 metadata/_custom_type_script = "uid://bgmwplmj3bfls"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jk3oc"]
@@ -959,6 +961,7 @@ curve = SubResource("Curve2D_2hewv")
 position = Vector2(1407, 2777)
 next_scene = "uid://b2l67fklyn03g"
 item = SubResource("Resource_x1dad")
+collected_dialogue = ExtResource("10_fyq7k")
 
 [node name="Cinematic" type="Node2D" parent="." unique_id=960101800]
 position = Vector2(0, -16)
